@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: '* */24 * * *' # 每天一次
+    - cron: "2 1 * * *" # 每天凌晨21点自动运行
   workflow_dispatch: # on button click
 
 jobs:
